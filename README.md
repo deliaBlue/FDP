@@ -18,7 +18,7 @@ build from a `C++` script as a means to construct its [Bioconda][bioconda]
 package.
 
 > NOTE: `MIRFLOWZ` is a work-in-progress. Although the workflow is functional,
-there are things yet to optimize and implement.
+there are things yet to be optimized and implemented.
 
 
 ## Data Preparation
