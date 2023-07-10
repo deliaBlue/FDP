@@ -11,10 +11,10 @@ Cancer.
 This directory holds the individual scripts embed in the `MIRFLOWZ` workflow,
 along with their unit tests. During the features addition and refactoring of
 the pipeline, several rules were added. To see the whole project along with
-the code modifications I made, refer to the [MIRFLOWZ](mirflow) repository.
+the code modifications I made, refer to the [MIRFLOWZ][mirflow] repository.
 Other project-related codes can be found in same repository branch
-`mirna_accounting` and in the [oligomap](oligomap) repository. The former, was
-build from a `C++` script as a means to construct its [Bioconda](bioconda)
+`mirna_accounting` and in the [oligomap][oligomap] repository. The former, was
+build from a `C++` script as a means to construct its [Bioconda][bioconda]
 package.
 
 > NOTE: `MIRFLOWZ` is a work-in-progress. Although the workflow is functional,
