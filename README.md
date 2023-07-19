@@ -29,8 +29,8 @@ the required format for the workflow and prepare the genomic resources.
 
 ## Expression Analysis
 
-This directory includes the `R` script used in the expression analysis along
-with an `.rmd` with some notes on the script.
+This directory iwill nclude the `R` script used in the expression analysis
+along with an `.rmd` with some notes on the script.
 
 [bioconda]: <https://bioconda.github.io>
 [mirflowz]: <https://github.com/zavolanlab/mirflowz>
