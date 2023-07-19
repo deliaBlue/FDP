@@ -1,7 +1,7 @@
 # FDP
 
 This repository includes the scripts for performing the isomiR quantification
-and their profiles analysis  in the Final Degree Project: 
+and their profiles analysis in the Final Degree Project: 
 
 _Provisional name_: miRNA expression analysis and isomiR profiles in Breast
 Cancer.
