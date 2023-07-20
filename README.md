@@ -3,8 +3,8 @@
 This repository includes the scripts for performing the isomiR quantification
 and their profiles analysis in the Final Degree Project: 
 
-_Provisional name_: miRNA expression analysis and isomiR profiles in Breast
-Cancer.
+_MIRFLOWZ: miRNA isoforms quantification and profiles in breast cancer._
+
 
 ## MIRFLOWZ Scripts
 
@@ -24,7 +24,7 @@ there are things yet to be optimized and implemented.
 ## Data Preparation
 
 This directory includes the `bash` scripts used to turn the sample files into
-the required format for the workflow and prepare the genomic resources.
+the required format for the workflow.
 
 
 ## Expression Analysis
