@@ -43,6 +43,11 @@ samples and after success, repeat the process for all the rest of the samples.
 At the end, and once the workflow was tested the approach taken was to create
 a single table with all the samples, hence the two scripts.
 
+Moreover, provided that the sample reads were already preprocessed, at least
+for adaptor trimming, but the workflow has an unavoidable adaptor trimming
+step, the adaptor string value of `XXXXXXXXX`. This way, there won't be any
+further trimming applied.
+
 `samples_10_table.sh` takes all the sample file names and creates different
 tables of 10 rows each, all of which are stored in a separated subdirectory.
 
