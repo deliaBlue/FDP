@@ -12,17 +12,17 @@ As samples data was provided in `BAM` format, but the workflow only allows
 `FASTQ` files, the conversion from one to another was a must. One thing to 
 account for when building the script was the directory structure.
 
-TCGA-BRCA
-├── bam_miRNA
-│   ├── sample_1
-│   │   ├── sample_1.bam
-│   │   ├── other_sample_1_data_file
-│   ├── sample_2
-│   │   ├── sample_2.bam
-│   │   ├── other_sample_2_data_file
-│   ├── sample_3
-│   │   ├── sample_3.bam
-│   │   ├── other_sample_3_data_file
+TCGA-BRCA  
+└── bam_miRNA  
+│   ├─ sample_1  
+│   │   ├── other_sample_1_data_file  
+│   │   └── sample_1.bam  
+│   └─ sample_2  
+│   │   ├── other_sample_2_data_file  
+│   │   └── sample_2.bam  
+│   └─ sample_3  
+│   │   ├── other_sample_3_data_file  
+│   │   └── sample_3.bam  
 
 From each `sample_#` subdirectory only the `BAM` was required. Thus, the script
 had to access each `sample_#` subdirectory, make the conversion, save the file
