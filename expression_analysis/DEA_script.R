@@ -7,13 +7,13 @@
 ###############################################################################
 
 
-library(edgeR)
-library(tidyverse)
 library(dplyr)
-library(readxl)
+library(edgeR)
 library(limma)
+library(readxl)
 library(reshape2)
 library(statmod)
+library(tidyverse)
 
 
 ###############################################################################
