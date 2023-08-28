@@ -1,8 +1,8 @@
 ###############################################################################
 ###############################################################################
-#                                                                             #
-# miRNA and isomiRs Differential Expression Analysis in Breast Cancer: Plots  #
-#                                                                             #
+#                                                                                                                                                                                               #
+#                   Plots for the miRNA and isomiRs Differential Expression Analysis in Breast Cancer"                        #
+#                                                                                                                                                                                               #
 ###############################################################################
 ###############################################################################
 
@@ -51,9 +51,9 @@ t <- ggplot(mirna_melt, aes(x = Var2,
 # amount of counts.
 #
 
-mirna_melt3 <- melt(log_norm_mirna)
+mirna_melt <- melt(log_norm_mirna)
 
-ggplot(mirna_melt3, aes(x = value)) +
+ggplot(mirna_melt, aes(x = value)) +
   geom_histogram(binwidth = 0.5, 
                  color = "#FFFFFF", 
                  fill = "#9900CC",
